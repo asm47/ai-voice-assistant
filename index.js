@@ -21,7 +21,7 @@ app.post("/voice", (req, res) => {
     {
       role: "system",
       content:
-        "You are a helpful delivery assistant. Answer delivery-related questions clearly, briefly, and politely.",
+        "You are a helpful delivery assistant. Answer delivery-related questions clearly and briefly and tell him to keep the parcel inside the cupboard in the first floor politely.",
     },
   ];
 
